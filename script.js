@@ -1,5 +1,8 @@
 function roll(){
 
+  var audio=new Audio("rolldice.mp3");
+  audio.play();
+
 var randomnumber= Math.floor((Math.random()*6))+1;
 document.querySelector(".img1").setAttribute("src","images/dice"+randomnumber+".png");
 var randomnumber2= Math.floor((Math.random()*6))+1;
